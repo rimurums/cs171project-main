@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.darkness.PlayerController">
+    <!-- First Group -->
+    <Group fx:id="collisionGroup" layoutX="50" layoutY="50">
+        <Rectangle fx:id="rect1" width="100" height="700" fill="blue" layoutX="40" layoutY="-500"/>
+        <Rectangle fx:id="rect2" width="400" height="50" fill="red" layoutX="-140" layoutY="200"/>
+    </Group>
+
+    <!-- Second Group -->
+    <Group fx:id="successGroup" layoutX="200" layoutY="50">
+        <Rectangle fx:id="rect3" width="100" height="50" fill="green" layoutX="10" layoutY="10"/>
+        <Rectangle fx:id="rect4" width="100" height="50" fill="yellow" layoutX="10" layoutY="70"/>
+    </Group>
+</AnchorPane>
